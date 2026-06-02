@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Proyecto personal</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="?" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+        <link rel="stylesheet" href="CSS/styles.css">
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/logo.png" alt="logo del proyecto">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Sobre mí</a></li>
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="proyectos.html">Proyectos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="clientes.html">Clientes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#myCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#myCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#myCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+                </div>
+                
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="img/Proyectos.png"
+                        alt="Proyecto 2"
+                        aria-hidden="true"
+                        class="fotoscarrusel"
+                        preserveAspectRatio="xMidYMid slice"
+                        xmlns="http://www.w3.org/2000/svg" >
+                    <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Proyectos</h1>
+                        <p class="opacity-75">
+                        Descubre mis proyectos más destacados.
+                        </p>
+                        <p>
+                        <a class="btn btn-lg btn-light" href="proyectos.html">Ver más</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img
+                        src="img/Servicios.png"
+                        alt="Proyecto 2"
+                        aria-hidden="true"
+                        class="fotoscarrusel"
+                        preserveAspectRatio="xMidYMid slice"
+                        xmlns="http://www.w3.org/2000/svg" >
+                    <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Servicios</h1>
+                        <p>
+                        Conoce los servicios que ofrezco y cómo puedo ayudarte a mejorar tu marca.
+                        </p>
+                        <p><a class="btn btn-lg btn-light" href="servicios.html">Ver más</a></p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img
+                        src="img/Contacto.png"
+                        alt="Proyecto 2"
+                        aria-hidden="true"
+                        class="fotoscarrusel"
+                        preserveAspectRatio="xMidYMid slice"
+                        xmlns="http://www.w3.org/2000/svg" >
+                    <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Contacto</h1>
+                        <p>
+                        Ponte en contacto conmigo para ayudarte a llevar tu proyecto al siguiente nivel.
+                        </p>
+                        <p>
+                        <a class="btn btn-lg btn-light" href="contacto.html">Ver más</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="prev"
+                >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="next"
+                >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div class="container marketing mt-5">
+                <div class="row">
+                <div class="col-lg-4">
+                    <img
+                        src="img/russafart.png"
+                        class="fotoclientes"
+                        alt="juego ivam"
+                    >
+                    <h2 class="fw-normal">Russafart</h2>
+                    <p>  
+                    Empresa de diseño gráfico y comunicación visual con sede en Valencia, España. Fundada en 1995, ofrece soluciones innovadoras en branding, diseño web, packaging y publicidad. 
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img
+                        src="img/femcoliving.png"
+                        class="fotoclientes"
+                        alt="juego ivam"
+                    >
+                    <h2 class="fw-normal">FEM Coliving</h2>
+                    <p>
+                    FEM es un espacio de coworking donde vivir y teletrabajar desde el Pirineo. Experiencia que te permite probar cómo vivir en un el Pirineo, sin renunciar a tus metas profesionales.
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img
+                        src="img/ivam.png"
+                        class="fotoclientes"
+                        alt="juego ivam"
+                    >
+                    <h2 class="fw-normal">Museo IVAM</h2>
+                    <p>
+                    El Instituto Valenciano de Arte Moderno (IVAM) es un museo de arte moderno y contemporáneo ubicado en Valencia, España. Fundado en 1986. 
+                    </p>
+                </div>
+                </div>
+
+                <hr class="featurette-divider"/>
+                <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                    Revista para Russafart 2026 y App.
+                    </h2>
+                    <p class="lead">
+                    Propuesta de deiseño para la revista corporativa para Russafart, con un enfoque en la presentación de proyectos, noticias y eventos relacionados con la empresa. Además, desarrollo de una aplicación móvil para mejorar la comunicación interna y la gestión de proyectos.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img
+                        src="img/portada folleto.jpg"
+                        class="fotoclientes2"
+                        alt="juego ivam"
+                    >
+                </div>
+                </div>
+                <hr class="featurette-divider" />
+                <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                    Libro de experiencias FEM Coliving.
+                    </h2>
+                    <p class="lead">
+                    Desarrollo de un libro de experiencias para FEM Coliving, con el objetivo de documentar y compartir las vivencias de los residentes en el espacio de coworking para llevarse un recuerdo a casa. En mi caso se diseñó una página para rutas de senderismo y ciclismopor el pueblo.
+                    </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img
+                        src="img/femmm.png"
+                        class="fotoclientes2"
+                        alt="libro fem"
+                    >
+                </div>
+                </div>
+                <hr class="featurette-divider" />
+                <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                    El club del color, encargo para el IVAM.
+                    </h2>
+                    <p class="lead">
+                    Diseño de carteles para la promoción de exposiciones y eventos en el IVAM, con un enfoque en la comunicación visual impactante y atractiva. Además, desarrollo de un juego de cartas temático relacionado con el arte moderno y contemporáneo para fomentar el aprendizaje de los más pequeños.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img
+                        src="img/juegoivam.jpeg"
+                        class="fotoclientes2"
+                        alt="carteles ivam"
+                    >
+                </div>
+                <hr class="featurette-divider" />
+            </div>
+        </main>
+
+        <footer class="py-5">
+            <div class="container">
+              <div class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top border-dark"> 
+                <p class="col-md-4 mb-0">
+                  &copy; 2025 Elena del Pozo Manzano. 
+                </p>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mb-0">
+                  <li class="ms-3">
+                    <a href="https://www.instagram.com/elenadelpozo_/" target="_blank">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="ms-3">
+                    <a href="https://es.linkedin.com/in/elena-del-pozo-manzano-b749a3329" target="_blank">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </footer>
+    </body>
+</html>

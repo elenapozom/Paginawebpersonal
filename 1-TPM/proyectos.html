@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Proyecto personal</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="?" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="CSS/styles.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/logo.png" alt="logo del proyecto">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Sobre mí</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="proyectos.html">Proyectos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="clientes.html">Clientes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#myCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#myCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#myCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
+                </div>
+                
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="img/Servicios.png"
+                        alt="Proyecto 2"
+                        aria-hidden="true"
+                        class="fotoscarrusel"
+                        preserveAspectRatio="xMidYMid slice"
+                        xmlns="http://www.w3.org/2000/svg" >
+                    <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Servicios</h1>
+                        <p class="opacity-75">
+                        Descubre mis servicios y cómo puedo ayudarte.
+                        </p>
+                        <p>
+                        <a class="btn btn-lg btn-light" href="servicios.html">Ver más</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img
+                        src="img/Clientes.png"
+                        alt="Proyecto 2"
+                        aria-hidden="true"
+                        class="fotoscarrusel"
+                        preserveAspectRatio="xMidYMid slice"
+                        xmlns="http://www.w3.org/2000/svg" >
+                    <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Clientes</h1>
+                        <p>
+                        Conoce a mis clientes y los proyectos que hemos realizado juntos.
+                        </p>
+                        <p><a class="btn btn-lg btn-light" href="clientes.html">Ver más</a></p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img
+                        src="img/Contacto.png"
+                        alt="Proyecto 2"
+                        aria-hidden="true"
+                        class="fotoscarrusel"
+                        preserveAspectRatio="xMidYMid slice"
+                        xmlns="http://www.w3.org/2000/svg" >
+                    <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Contacto</h1>
+                        <p>
+                        Ponte en contacto conmigo para ayudarte a llevar tu proyecto al siguiente nivel.
+                        </p>
+                        <p>
+                        <a class="btn btn-lg btn-light" href="contacto.html">Ver más</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="prev"
+                >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="next"
+                >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="album py-5">
+            <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img
+                        src="img/Proyecto1.png"
+                        class="fotoproyectos"
+                        alt="Proyecto 1"
+                    >
+                    <div class="card-body">
+                        <p class="card-text">
+                        <strong>Ruravia</strong>
+                        <br>Una página web diseñada para la gente que ama el turismo y la calidad del aire.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img
+                        src="img/proyecto2.png"
+                        class="fotoproyectos"
+                        alt="Proyecto 2"
+                    >
+                    <div class="card-body">
+                        <p class="card-text">
+                        <strong>El club del color</strong>
+                        <br> Juego de cartas diseñado para niños con el objetivo de fomentar el aprendizaje a través del juego.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img
+                        src="img/proyecto3.jpeg"
+                        class="fotoproyectos"
+                        alt="Proyecto 3"
+                    >
+                    <div class="card-body">
+                        <p class="card-text">
+                        <strong>Revista Russafart 2026</strong>
+                        <br> Revista para la promoción de artistas emergentes en Ruzafa, Valencia.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img
+                        src="img/Proyectos4.png"
+                        class="fotoproyectos"
+                        alt="Proyecto 4"
+                    >
+                    <div class="card-body">
+                        <p class="card-text">
+                        <strong>App Russafart</strong>
+                        <br>Aplicación móvil para la promoción de artistas emergentes en Ruzafa, Valencia.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img
+                        src="img/Proyecto5.png"
+                        class="fotoproyectos"
+                        alt="Proyecto 5"
+                    >
+                    <div class="card-body">
+                        <p class="card-text">
+                        <strong>TRAMA</strong>
+                        <br>Trama es una revista enfocada en la tipografía del cine, en concreto de terror.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img
+                        src="img/Proyecto6.png"
+                        class="fotoproyectos"
+                        alt="Proyecto 6"
+                    >
+                    <div class="card-body">
+                        <p class="card-text">
+                        <strong>Rediseño web Dance Center</strong>
+                        <br>Rediseño de la página web de la escuela de danza Dance Center, ubicada en Valencia.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+        </main>
+
+        <footer class="py-5">
+            <div class="container">
+              <div class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top border-dark"> 
+                <p class="col-md-4 mb-0">
+                  &copy; 2025 Elena del Pozo Manzano. 
+                </p>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mb-0">
+                  <li class="ms-3">
+                    <a href="https://www.instagram.com/elenadelpozo_/" target="_blank">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="ms-3">
+                    <a href="https://es.linkedin.com/in/elena-del-pozo-manzano-b749a3329" target="_blank">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </footer>
+    </body>
+</html>
